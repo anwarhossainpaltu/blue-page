@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  display: block;
+}
+body {
+  color: white;
+}
+/* header start */
+
+header {
+  background-color: #121b2a;
+  padding: 10px 0;
+}
+.wrapper {
+  /*border: 5px solid green;*/
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo {
+  width: 15%;
+  /*border: 1px solid white;*/
+  float: left;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  width: 70%;
+  /*border: 1px solid white;*/
+  float: right;
+  margin-top: 25px;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 15px;
+  color: white;
+  transition: 0.5s;
+}
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+.menu ul li a:hover {
+  color: #0078bd;
+}
+/* header end */
+
+/*header color #121B2A
+blue  #C5CFDF   0178BC
+0468A3
+
+/* banner start */
+.banner {
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  /*min-height: 300px;*/
+}
+
+.banner-content {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  width: 45%;
+}
+.banner-content p:first-child {
+  color: white;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+.banner-content h1 {
+  color: #0075b8;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.banner-content p:nth-last-child(2) {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.banner-content button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #5a5a5a;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: white;
+  text-transform: uppercase;
+}
+.banner-content button span {
+  background-color: blue;
+  padding: 4px 7px;
+  border-radius: 50%;
+  color: white;
+  margin-left: 10px;
+}
+/* section Service */
+.section-service {
+  background-color: #121b2c;
+  padding: 50px 0;
+}
+.service-container {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 65vh;
+}
+.single {
+  width: 20%;
+  padding: 5rem 5rem;
+  float: left;
+  border-right: 1px solid #fff;
+}
+.single:last-child {
+  border-right: 0;
+}
+.title {
+  overflow: hidden;
+}
+.icon {
+  width: 25%;
+  float: left;
+}
+.icon-content {
+  width: 70%;
+  float: left;
+  margin-top: 7px;
+  margin-bottom: 2.5rem;
+}
+.icon-content h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+.icon-content h2 {
+  color: #0078bf;
+  font-size: 1.8rem;
+}
+.single-title {
+  font-size: 2rem;
+
+  text-align: center;
+}
+span {
+  color: #0078bf;
+}
+.content p {
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+/* section service end */
+.section-third {
+  background-color: #040811;
+  padding: 0 7.8rem;
+}
+.third-container {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 55vh;
+  overflow: hidden;
+}
+
+.third-content {
+  width: 25%;
+  text-transform: capitalize;
+  margin-top: 8rem;
+}
+.third-content-first {
+  float: left;
+}
+.third-content-first h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.third-content-first p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.third-content-first li {
+  margin-bottom: 0.8rem;
+}
+.third-content-second {
+  float: left;
+  margin-left: 7rem;
+}
+.third-content-second h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.third-content-second p {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+.third-content-third {
+  float: right;
+  margin-right: 0;
+}
+/* footer start */
+footer {
+  background-color: #121b2a;
+  font-family: sans-serif;
+}
+.container-f {
+  overflow: hidden;
+  padding: 4.2rem 4.2rem;
+}
+.footer-menu {
+  width: 50%;
+  color: white;
+  float: left;
+  margin-left: 11rem;
+}
+.footer-menu ul {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.footer-menu ul li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+  border-right: 1px solid white;
+  padding-right: 25px;
+}
+.footer-menu ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.footer-menu ul li:last-child {
+  border-right: 0;
+}
+.footer-menu p {
+  letter-spacing: 1px;
+}
+
+.footer-logo {
+  overflow: hidden;
+}
+.footer-logo img {
+  margin-right: 0.5rem;
+}
+.symbian {
+  width: 35%;
+  float: left;
+  margin-right: 20px;
+}
+.ocean {
+  width: 35%;
+  float: left;
+}
+/* footer end */
